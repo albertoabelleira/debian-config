@@ -10,5 +10,5 @@ wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-
 chmod +x /usr/local/bin/oh-my-posh
 echo "Configuring software"
 git clone https://github.com/albertoabelleira/ohmyposh-config.git /home/alberto/ohmyposh-config
-echo "eval '$(oh-my-posh --init --shell bash --config ~/ohmyposh-config/ohmyposh-custom.json)'" >> /home/alberto/.profile
+echo "eval '$(oh-my-posh --init --shell bash --config ~/ohmyposh-config/ohmyposh-custom.linux.json)'" >> /home/alberto/.profile
 
